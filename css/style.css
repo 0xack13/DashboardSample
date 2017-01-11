@@ -69,7 +69,33 @@ body {
 }
 
 
+.main-color-bg {
+  background-color: #525165 !important;
+  border-color: #3987bb !important;
+  color:#ffffff;
+}
 
+/* HEADER CSS */
+#header {
+    background: #333333;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#header .create {
+    padding-top: 20px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background: #cccccc;
+    color: #333333;
+}
+
+.breadcrum a {
+    color: #333333;
+}
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
