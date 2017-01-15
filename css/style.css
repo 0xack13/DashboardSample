@@ -72,7 +72,7 @@ body {
 .main-color-bg {
   background-color: #525165 !important;
   border-color: #3987bb !important;
-  color:#ffffff;
+  color:#ffffff !important;
 }
 
 /* HEADER CSS */
@@ -93,8 +93,26 @@ body {
     color: #333333;
 }
 
-.breadcrum a {
+.breadcrumb a {
     color: #333333;
+}
+
+.progress-bar {
+    background: #333333;
+    color: #ffffff;
+}
+
+.dash-box {
+    text-align: center;
+}
+
+/* Footer */
+#footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 300px;
 }
 
 @media (max-width: 767px) {
